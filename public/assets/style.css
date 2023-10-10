@@ -1,0 +1,48 @@
+*{
+    color: white;
+}
+body{
+    background-image: url('/assets/bg-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.center-div{
+    padding-top: 10%;
+}
+.btn.btn-success{
+    padding: 4em2em;
+}
+form{
+    padding: 0.3rem;
+}
+#login.title>span{
+    font-size: 0.8em;
+}
+
+.card-container{
+    position: absolute;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.card{
+    margin-top: 10px;
+}
+.card-img-top{
+    position: relative;
+    margin-top: 0px;
+    width: 287px;
+    height: 200px;
+    z-index: 100;
+}
+
+.card-text{
+    color: black;
+}
+.card-img{
+    background-image: url('/assets/team-4.jpg');
+}
